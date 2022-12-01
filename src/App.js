@@ -1,24 +1,36 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+import GoogleKeep from "./components/GoogleKeep/GoogleKeep";
+// import TimeChallange from './components/TimeChallange'
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    < >
+      {/* <TimeChallange /> */}
+
+      {/* <p> {add(10,20)} </p>
+      <p> {sub(100,20)} </p>
+      <p> {mult(10,20)} </p>
+      <p> {div(100,20)} </p> */}
+
+      {/* < Netflix /> */}
+
+      {/* <SlotMachineGame />   */}
+
+      {/* < UsingHooks /> */}
+
+      {/* < EventHandling /> */}
+
+      {/* < Forms /> */}
+
+      {/* < TodoList /> */}
+
+      {/* <Accordian /> */}
+
+      < GoogleKeep />
+
+    </>
   );
 }
 

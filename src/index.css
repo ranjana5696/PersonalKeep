@@ -11,3 +11,266 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* -----------------------------Greeting --------------------------------- */
+
+.Greeting {
+
+  background-color: aqua;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 200px;
+}
+
+.Greeting-heading {
+
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 20px;
+  width: 500px;
+  background-color: bisque;
+  text-align: center;
+}
+
+/* ------------------------------- Netflix --------------------------------------- */
+
+.heading-netflix {
+  text-align: center;
+  opacity: 0.5;
+  text-transform: capitalize;
+  height: 50px;
+}
+
+.cards-netflix {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  background-color: rgb(232, 229, 229);
+  padding-left: 60px;
+  padding-top: 40px;
+}
+
+.card-netflix {
+  height: 350px;
+  width: 300px;
+  margin: 30px 50px;
+  border: 2px solid grey;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: antiquewhite;
+}
+
+.card-netflix:hover {
+  transform: scale(1.06);
+  box-shadow: 0 10px 40px 0 rgba(0, 0, 0, 0.4);
+  z-index: 3;
+  border-color: #8294a7 ! important;
+}
+
+.card_img-netflix {
+  border-radius: 10px 10px 0px 0px;
+}
+
+.card_info-netflix {
+  height: 23%;
+  padding-left: 10px;
+  
+}
+
+.card_category-netflix {
+  margin: 5px;
+}
+
+.card_title-netflix {
+  margin: 2px;
+}
+
+.btn-netflix {
+  border-radius: 5px;
+  padding: 2px 5px;
+  border: 1px solid grey;
+}
+
+.btn-netflix:hover {
+  background-color: rgb(228, 193, 148);
+}
+
+/* --------------------------- SlotMachineGame ----------------------------------- */
+
+.SlotMachineGame-heading {
+    text-align: center;
+    background-color: #b1bfce;
+    padding: 30px 0px;
+    margin: 0px;
+    text-transform: uppercase;
+}
+
+.slot-inner {
+  text-align: center;
+  background-color: #b1bfce;
+  margin: 0px;
+  padding-top: 10px;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.slotmachine {
+  border: 2px solid grey;
+  box-shadow: 2px 2px 2px #8294a7;
+  width: 50%;
+  margin: auto;
+  background-color: #b1bfce;
+  height: 500px;
+}
+
+/* ----------------------------- UsingHooks -------------------------------------- */
+
+.mainDiv {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+  background-color: #7dba4a;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 2px solid grey;
+  width: 20%;
+  margin: 20px auto;
+  background-color: rgb(250, 196, 126);
+}
+
+.numberHeading {
+  text-align: center;
+}
+
+
+.clickMeBtn {
+  padding: 16px 10px;
+  width: 150px;
+  background-color: rgb(188, 127, 245);
+  border-radius: 8px ;
+  border: 2px solid whitesmoke;
+  font-size: large;
+  margin: 10px auto;
+  cursor: pointer;
+  box-shadow: 2px 2px 2px grey;
+}
+
+
+
+/* ------------------------------- Event Handling --------------------------------- */
+
+.someMoreStyles {
+  width: 250px;
+  padding: 25px;
+  font-size: 30px;
+}
+
+/* -------------------------------- Forms ------------------------------------ */
+
+.mainDivForm {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  text-align: center;
+  margin: 100px auto;
+  border: 2px solid lightgrey;
+  border-radius: 5px;
+  padding: 30px 0px;
+  background-color: rgb(247, 121, 121);
+  box-shadow: 2px 2px 2px grey;
+}
+
+.formHeading {
+  opacity: 0.8;
+  font-size: 40px;
+}
+
+.inputfield {
+  height: 35px;
+  text-align: center;
+  width: 55%;
+  margin: 10px auto;
+  border-radius: 5px;
+  font-size: 22px;
+  padding: 5px 15px;
+  background-color: rgb(240, 161, 161);
+  opacity: 0.6;
+}
+
+/* ------------------------------ ToDo List -------------------------------------- */
+
+.bg {
+  background-color: rgb(4, 117, 148);
+  margin: 0px;
+  height: 90%;
+  padding-top: 75px;
+}
+.todo-div {
+  text-align: center; 
+  border: 2px solid lightblue;
+  box-shadow: 2px 2px 2px grey;
+  width: 26%;
+  height: 600px;
+  margin: 0px auto;
+  border-radius: 20px;
+  background-color: white;
+}
+.todo-heading {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: rgb(156, 72, 211);
+  color: white;
+  font-size: 35px;
+}
+.input-box {
+  border: none;
+  font-size: 19px;
+  border-bottom: 3px solid purple;
+  outline: none;
+}
+.add-icon {
+  font-size: 35px;
+  margin-left: 10px;
+  color: rgb(184, 6, 184);
+}
+.add-icon:hover {
+  color: rgb(4, 158, 4);
+}
+.icon-btn {
+  border: none;
+  background-color: white;
+  cursor: pointer;
+}
+.todo-ol {
+  margin-top: 30px;
+}
+
+.todo-ol li {
+  padding-left: 0px;
+  text-align: left;
+  font-size: 20px;
+  font-weight: 500;
+  min-height: 40px;
+  display: flex;
+  align-items: center;
+  color: #8566aa;
+  text-transform: capitalize;
+}
+
+.removeBtn {
+  color: #8566aa;
+  font-size: 25px;
+  margin-right: 6px;
+  cursor: pointer;
+}
+
+.removeBtn:hover {
+  color: rgb(214, 4, 4);
+}

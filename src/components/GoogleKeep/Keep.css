@@ -1,0 +1,92 @@
+
+
+.Keep-header {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      height: 70px;
+      background-color: rgb(2, 207, 98);
+      padding: 10px 0px;
+      padding-left: 20px;
+}
+.Keep-header>h3 {
+      padding: 0px 10px;
+      color: white;
+}
+.footer-bottom {
+      font-weight: 500;
+      position: absolute;
+      bottom: 0px;
+      left: 45%;
+}
+.form-class {
+      display: flex;
+      position: relative;
+      flex-direction: column;
+      width: 32%;
+      margin: 20px auto;
+      box-shadow: 2px 2px 2px grey;
+      border-radius: 15px;
+      background-color: rgb(249, 240, 229);
+}
+.btn-icon {
+      background-color: rgb(213, 222, 40);
+      border: none;
+      border-radius: 30px;
+      width: 45px;
+      padding: 4px 4px;
+      box-sizing: content-box;     
+}
+.form-class>input {
+      border: none;
+      border-radius: 5px;
+      padding: 10px;
+      background-color: rgb(249, 240, 229);
+      outline: none;
+}
+.btn-position {
+      cursor: pointer;
+      position: absolute;
+      bottom: -15px;
+      right: 1px;
+}
+.btn-position:hover{
+      box-shadow: 1px 1px 2px rgb(240, 245, 143);
+}
+.form-class>textarea {
+      font-size: 18px;
+      border: none;
+      outline: none;
+      background-color: rgb(249, 240, 229);
+      border-radius: 0px 10px ;
+      padding: 10px;
+}
+.note {
+      position: relative;
+      width: 15%;
+      background-color: rgb(249, 240, 229);
+      border-radius: 15px;
+      padding: 15px;
+      margin: 20px;
+}
+.dlt {
+      border: none;
+      background-color: aquamarine;
+      border-radius: 15px;
+      padding: 2px 2px;
+}
+.btn2-position {
+      cursor: pointer;
+      position: absolute;
+      bottom: 5px;
+      right: 10px;
+}
+
+@media screen and (max-width: 687px) {
+      .form-class {
+            width: 70%;
+      }
+    }
+
+
+
